@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background:url('assets/images/shopafrik.jpg');
+    background-size: cover;
+}
+.navbar{
+    width:50%;
+    margin:20px auto;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px 25px;
+    background: #f79d00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64f38c, #f79d00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64f38c, #f79d00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius:45px;
+}
+
+.nav-logo{
+    font-family: 'Lobster Two', cursive;
+    margin-right:20px;
+    font-size:30px;
+    color:#2a2a2a;
+}
+
+.search{
+    padding:5px 15px;
+    border:1px solid #2a2a2a;
+    border-radius:30px;
+    font-size:16px;
+    margin-right:auto ;
+    width: 90%;
+    flex:1;
+}
+.search-form{
+    display:flex;
+    width: 100%;
+}
+
+.search:focus{
+    outline:none;
+    border-color:#f79d00;
+}
+.search::placeholder{
+    color:#2a2a2a;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    padding:0 20px;
+    gap:30px;
+}
+
+.nav-link li a{
+    text-decoration:none;
+    color:#2a2a2a;
+    font-size:18px;
+}
+
+.nav-link a:hover{
+color:white;
+}
+
+.cta{
+    padding: 10px 25px;
+    background:#f57c00;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.cta i{
+    margin-right: 8px;
+}
