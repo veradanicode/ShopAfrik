@@ -11,23 +11,24 @@ body{
     background: #f5f3ee;
 }
 .topbar{
-  background:#000;
-  color:#fff;
+  background:#0f172a;
+  color:white;
   font-size:13px;
 }
 
 .topbar-content{
   display:flex;
-  align-items:center;
   justify-content:space-between;
+  align-items:center;
   padding:8px 0;
 }
 
-.top-links a{
-  margin-left:20px;
+.top-right a{
+  margin-left:15px;
   color:white;
   text-decoration:none;
 }
+
 .navbar{
     width:50%;
     margin:20px auto;
