@@ -20,13 +20,17 @@ body{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding:8px 0;
+  padding:8px 16px;
 }
 
 .top-right a{
   margin-left:15px;
   color:white;
   text-decoration:none;
+}
+
+.top-right span{
+  margin-left:15px;
 }
 
 .navbar{
